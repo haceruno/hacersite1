@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+		<meta charset="utf-8">
+		<title>QUEM SOMOS</title>
+		<style>
+			body {
+	background-color: rgba(0,0,0,0.9);
+}
+
+/* formatação do menu */
+
+nav#menu ul {
+	list-style: none;
+	text-transform: uppercase;
+	margin: auto;
+	text-align: center;
+	cursor: hand; 
+}
+
+nav#menu li {
+	display: inline-block;
+	background-color: rgba(0,0,0,1);
+	border-style: solid;
+	border-color: rgba(255,255,255,0.8);
+	border-width: 1px;
+	padding: 5px;
+	margin: 2px;
+	transition: background-color 0.6s;
+}
+
+nav#menu li:hover {
+	background-color: #606060;
+}
+
+nav#menu h1 {
+	display: none;
+}
+
+nav#menu a {
+	color: white;
+	text-decoration-line: none;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+}
+
+p {
+	color: white;
+	text-align: center;
+}
+		</style>
+	</head>
+
+	<body>
+
+		<div id="cabeçalho">
+			<header>
+				<nav id="menu">
+				<h1>Menu principal</h1>
+					<ul>
+						<li><a href="index.html">QUEM SOMOS</a></li>
+						<li><a href="advogados.html">MEMBROS</a></li>
+						<li><a href="atuacao.html">DROGAS</a></li>
+						<li><a href="carreira.html">FOTOS</a></li>
+						<li><a href="contato.html">FALE CONOSCO</a></li>
+					</ul>
+				</nav>
+			</header>
+		</div>
+
+		<h1>HACER UNO</h1>
+		<center>
+		<img src="https://media.licdn.com/dms/image/C4E03AQEu7EHXMGOTtQ/profile-displayphoto-shrink_200_200/0?e=1540425600&v=beta&t=Iasiz6arHBt9Yl9qoet7EjHWzO15jU9DU6JxEdTATOg">
+		</center>
+		<p>SITE EM CONSTRUÇÃO</p>
